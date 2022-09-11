@@ -42,6 +42,25 @@
     line-height:35px;
 
   }
+  .label1{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    line-height:35px;
+    color: rgb(13, 241, 6);
+    font-size: 20px;
+  }
+
+  .label2{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    line-height:35px;
+    color: rgb(255, 0, 13);
+    font-size: 20px;
+  }
   .image-upload{
     margin-top: 1%;
     width: 150px;
@@ -52,4 +71,12 @@
     text-align: center;
     cursor: pointer;
 
+  }
+ 
+  div.fade.in.modal {
+    display:flex !important;
+  }
+  
+  .modal-dialog {
+    margin: auto;
   }

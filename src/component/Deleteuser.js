@@ -18,10 +18,9 @@ function Deleteuser() {
       <Button variant="danger" onClick={handleShow}>
       <AiFillDelete/>
       </Button>
-
       <Modal show={show} onHide={handleClose}   size='sm' className="text-center">
         <Modal.Header   className='text-danger'>
-          <Modal.Title>Are You Sure?</Modal.Title>
+          <Modal.Title >Are You Sure?</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
@@ -32,12 +31,14 @@ function Deleteuser() {
           </Form>
         </Modal.Body>
         <Modal.Footer>
+      
         <Button variant="danger" onClick={handleClose}>
             Save
           </Button>
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
+          
         </Modal.Footer>
       </Modal>
     </>

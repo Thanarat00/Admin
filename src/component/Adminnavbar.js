@@ -17,13 +17,13 @@ function Adminnavbar() {
                                 <span className="text-light">การอัพเดท</span>
                                } id="basic-nav-dropdown">
               <NavDropdown.Item  as={Link} to="/allupdate">ตรวจสอบการอัพเดท</NavDropdown.Item>
-              <NavDropdown.Item  as={Link} to="#"> อัพเดทการติดตาม</NavDropdown.Item>
+              <NavDropdown.Item  as={Link} to="/alluploaddate"> อัพเดทการติดตาม</NavDropdown.Item>
              
        
      
             </NavDropdown>
-            <Nav.Link  as={Link} to="#" className="text-light">ตรวจสอบประกาศ</Nav.Link>
-            <Nav.Link  as={Link} to="#" className="text-light">ตรวจสอบสมาชิก</Nav.Link>
+            <Nav.Link  as={Link} to="/post" className="text-light">ตรวจสอบประกาศ</Nav.Link>
+            <Nav.Link  as={Link} to="/member" className="text-light">ตรวจสอบสมาชิก</Nav.Link>
             <NavDropdown title={
                                 <span className="text-light">ตรวจสอบสถานะแมว</span>
                                } id="basic-nav-dropdown" >

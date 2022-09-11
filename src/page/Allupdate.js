@@ -37,9 +37,40 @@ function Allupdate() {
                   </ul>
                  </Card.Text>
                  <div className="d-grid gap-2">
-                  <Button variant="dark" type="submit">
                    <Video />
-                  </Button>
+                  
+                  </div>
+                <br></br>
+                 <Modal.Footer>
+
+                 <Button variant="danger" onClick={handleClose}>
+              ลบ
+                 </Button>
+          </Modal.Footer>
+
+               </Card.Body>
+              
+             </Card>
+
+       
+             <Card>
+               <Card.Img variant="top" src="/images/2.jpg" />
+               <Card.Body>
+                 <Card.Title>ID</Card.Title>
+                 <Card.Text>
+                   <ul> 
+                       <li>วัน/เดือน/ปี </li>
+                       <li>เวลา </li>
+                       <li>ราบละเอียด้พิ่มเติม</li>
+                        <br></br>
+                       
+                        
+                                        
+                  </ul>
+                 </Card.Text>
+                 <div className="d-grid gap-2">
+                   <Video />
+                  
                   </div>
                 <br></br>
                  <Modal.Footer>
@@ -69,9 +100,8 @@ function Allupdate() {
                   </ul>
                  </Card.Text>
                  <div className="d-grid gap-2">
-                  <Button variant="dark" type="submit">
-                    ดูวิดิโอ
-                  </Button>
+                   <Video />
+                  
                   </div>
                 <br></br>
                  <Modal.Footer>
@@ -84,7 +114,7 @@ function Allupdate() {
                </Card.Body>
               
              </Card>
-     
+
 
              <Card>
                <Card.Img variant="top" src="/images/2.jpg" />
@@ -102,12 +132,12 @@ function Allupdate() {
                   </ul>
                  </Card.Text>
                  <div className="d-grid gap-2">
-                  <Button variant="dark" type="submit">
-                    ดูวิดิโอ
-                  </Button>
+                   <Video />
+                  
                   </div>
                 <br></br>
                  <Modal.Footer>
+
                  <Button variant="danger" onClick={handleClose}>
               ลบ
                  </Button>
@@ -116,7 +146,7 @@ function Allupdate() {
                </Card.Body>
               
              </Card>
-     
+
 
              <Card>
                <Card.Img variant="top" src="/images/2.jpg" />
@@ -134,13 +164,44 @@ function Allupdate() {
                   </ul>
                  </Card.Text>
                  <div className="d-grid gap-2">
-                  <Button variant="dark" type="submit">
-                    ดูวิดิโอ
-                  </Button>
+                   <Video />
+                  
                   </div>
                 <br></br>
                  <Modal.Footer>
-               
+
+                 <Button variant="danger" onClick={handleClose}>
+              ลบ
+                 </Button>
+          </Modal.Footer>
+
+               </Card.Body>
+              
+             </Card>
+
+
+             <Card>
+               <Card.Img variant="top" src="/images/2.jpg" />
+               <Card.Body>
+                 <Card.Title>ID</Card.Title>
+                 <Card.Text>
+                   <ul> 
+                       <li>วัน/เดือน/ปี </li>
+                       <li>เวลา </li>
+                       <li>ราบละเอียด้พิ่มเติม</li>
+                        <br></br>
+                       
+                        
+                                        
+                  </ul>
+                 </Card.Text>
+                 <div className="d-grid gap-2">
+                   <Video />
+                  
+                  </div>
+                <br></br>
+                 <Modal.Footer>
+
                  <Button variant="danger" onClick={handleClose}>
               ลบ
                  </Button>
@@ -166,9 +227,8 @@ function Allupdate() {
                   </ul>
                  </Card.Text>
                  <div className="d-grid gap-2">
-                  <Button variant="dark" type="submit">
-                    ดูวิดิโอ
-                  </Button>
+                   <Video />
+                  
                   </div>
                 <br></br>
                  <Modal.Footer>
@@ -181,6 +241,257 @@ function Allupdate() {
                </Card.Body>
               
              </Card>
+
+
+             <Card>
+               <Card.Img variant="top" src="/images/2.jpg" />
+               <Card.Body>
+                 <Card.Title>ID</Card.Title>
+                 <Card.Text>
+                   <ul> 
+                       <li>วัน/เดือน/ปี </li>
+                       <li>เวลา </li>
+                       <li>ราบละเอียด้พิ่มเติม</li>
+                        <br></br>
+                       
+                        
+                                        
+                  </ul>
+                 </Card.Text>
+                 <div className="d-grid gap-2">
+                   <Video />
+                  
+                  </div>
+                <br></br>
+                 <Modal.Footer>
+
+                 <Button variant="danger" onClick={handleClose}>
+              ลบ
+                 </Button>
+          </Modal.Footer>
+
+               </Card.Body>
+              
+             </Card>
+
+             <Card>
+               <Card.Img variant="top" src="/images/2.jpg" />
+               <Card.Body>
+                 <Card.Title>ID</Card.Title>
+                 <Card.Text>
+                   <ul> 
+                       <li>วัน/เดือน/ปี </li>
+                       <li>เวลา </li>
+                       <li>ราบละเอียด้พิ่มเติม</li>
+                        <br></br>
+                       
+                        
+                                        
+                  </ul>
+                 </Card.Text>
+                 <div className="d-grid gap-2">
+                   <Video />
+                  
+                  </div>
+                <br></br>
+                 <Modal.Footer>
+
+                 <Button variant="danger" onClick={handleClose}>
+              ลบ
+                 </Button>
+          </Modal.Footer>
+
+               </Card.Body>
+              
+             </Card>
+
+             <Card>
+               <Card.Img variant="top" src="/images/2.jpg" />
+               <Card.Body>
+                 <Card.Title>ID</Card.Title>
+                 <Card.Text>
+                   <ul> 
+                       <li>วัน/เดือน/ปี </li>
+                       <li>เวลา </li>
+                       <li>ราบละเอียด้พิ่มเติม</li>
+                        <br></br>
+                       
+                        
+                                        
+                  </ul>
+                 </Card.Text>
+                 <div className="d-grid gap-2">
+                   <Video />
+                  
+                  </div>
+                <br></br>
+                 <Modal.Footer>
+
+                 <Button variant="danger" onClick={handleClose}>
+              ลบ
+                 </Button>
+          </Modal.Footer>
+
+               </Card.Body>
+              
+             </Card>
+
+             <Card>
+               <Card.Img variant="top" src="/images/2.jpg" />
+               <Card.Body>
+                 <Card.Title>ID</Card.Title>
+                 <Card.Text>
+                   <ul> 
+                       <li>วัน/เดือน/ปี </li>
+                       <li>เวลา </li>
+                       <li>ราบละเอียด้พิ่มเติม</li>
+                        <br></br>
+                       
+                        
+                                        
+                  </ul>
+                 </Card.Text>
+                 <div className="d-grid gap-2">
+                   <Video />
+                  
+                  </div>
+                <br></br>
+                 <Modal.Footer>
+
+                 <Button variant="danger" onClick={handleClose}>
+              ลบ
+                 </Button>
+          </Modal.Footer>
+
+               </Card.Body>
+              
+             </Card>
+
+             <Card>
+               <Card.Img variant="top" src="/images/2.jpg" />
+               <Card.Body>
+                 <Card.Title>ID</Card.Title>
+                 <Card.Text>
+                   <ul> 
+                       <li>วัน/เดือน/ปี </li>
+                       <li>เวลา </li>
+                       <li>ราบละเอียด้พิ่มเติม</li>
+                        <br></br>
+                       
+                        
+                                        
+                  </ul>
+                 </Card.Text>
+                 <div className="d-grid gap-2">
+                   <Video />
+                  
+                  </div>
+                <br></br>
+                 <Modal.Footer>
+
+                 <Button variant="danger" onClick={handleClose}>
+              ลบ
+                 </Button>
+          </Modal.Footer>
+
+               </Card.Body>
+              
+             </Card>
+
+             <Card>
+               <Card.Img variant="top" src="/images/2.jpg" />
+               <Card.Body>
+                 <Card.Title>ID</Card.Title>
+                 <Card.Text>
+                   <ul> 
+                       <li>วัน/เดือน/ปี </li>
+                       <li>เวลา </li>
+                       <li>ราบละเอียด้พิ่มเติม</li>
+                        <br></br>
+                       
+                        
+                                        
+                  </ul>
+                 </Card.Text>
+                 <div className="d-grid gap-2">
+                   <Video />
+                  
+                  </div>
+                <br></br>
+                 <Modal.Footer>
+
+                 <Button variant="danger" onClick={handleClose}>
+              ลบ
+                 </Button>
+          </Modal.Footer>
+
+               </Card.Body>
+              
+             </Card>
+
+             <Card>
+               <Card.Img variant="top" src="/images/2.jpg" />
+               <Card.Body>
+                 <Card.Title>ID</Card.Title>
+                 <Card.Text>
+                   <ul> 
+                       <li>วัน/เดือน/ปี </li>
+                       <li>เวลา </li>
+                       <li>ราบละเอียด้พิ่มเติม</li>
+                        <br></br>
+                       
+                        
+                                        
+                  </ul>
+                 </Card.Text>
+                 <div className="d-grid gap-2">
+                   <Video />
+                  
+                  </div>
+                <br></br>
+                 <Modal.Footer>
+
+                 <Button variant="danger" onClick={handleClose}>
+              ลบ
+                 </Button>
+          </Modal.Footer>
+
+               </Card.Body>
+              
+             </Card>
+
+             <Card>
+               <Card.Img variant="top" src="/images/2.jpg" />
+               <Card.Body>
+                 <Card.Title>ID</Card.Title>
+                 <Card.Text>
+                   <ul> 
+                       <li>วัน/เดือน/ปี </li>
+                       <li>เวลา </li>
+                       <li>ราบละเอียด้พิ่มเติม</li>
+                        <br></br>
+                       
+                        
+                                        
+                  </ul>
+                 </Card.Text>
+                 <div className="d-grid gap-2">
+                   <Video />
+                  
+                  </div>
+                <br></br>
+                 <Modal.Footer>
+
+                 <Button variant="danger" onClick={handleClose}>
+              ลบ
+                 </Button>
+          </Modal.Footer>
+
+               </Card.Body>
+              
+             </Card>
+
+
              </div>   
      
     </div>

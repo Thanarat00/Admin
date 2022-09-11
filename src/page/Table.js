@@ -40,7 +40,7 @@ export class Table extends Component {
           <tr>
             <th><input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." /></th>
             <th scope='row'>1</th>
-            <td><img src='/images/2.jpg'  className='image' /></td>
+            <td><img src='/images/1.jpg'  className='image' /></td>
             <td>Osdfsdfsfd</td>
             <td>@mdsdfsdsdfsdsdfsdosdfsdsdfsdfsd</td>
             <td>sdfsdfsf</td>

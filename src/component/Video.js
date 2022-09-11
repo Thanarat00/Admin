@@ -1,17 +1,29 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+import ReactPlayer from 'react-player'
 
 
-export class Video extends Component {
-   
-      render() {
-        return (
-          <div>
-            <div>
-            <button class="js-modal-btn" data-video-id="XJS_UYNq4No">Open Video</button>
-            </div>
-          </div>
-        );
-      }
-    }
+function Video() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  return (
+    <>
+    <div className="d-grid gap-2">
+      <Button variant="dark" onClick={handleShow}>
+        ดูวีดิโอ
+      </Button>
+      </div>
+      <Modal show={show} onHide={handleClose} size='lg'>
+        <Modal.Header closeButton>
+        </Modal.Header>
+        <Modal.Body><ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' height='460px' width='770px'/></Modal.Body>
+      </Modal>
+    </>
+  );
+}
 
 export default Video
