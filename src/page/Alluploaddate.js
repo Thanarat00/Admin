@@ -7,6 +7,7 @@ import './All.css'
 import {MDBBtn, MDBInputGroup,} from 'mdb-react-ui-kit';
 import { BsSearch } from "react-icons/bs";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+import Upload from '../component/Upload';
 
 
  function Alluploaddate() {
@@ -15,6 +16,7 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css'
     <>
     <div >
       <MDBInputGroup tag="form"  className='Search'>
+        <Upload/>
       <input className='form-control' aria-label="Search" type='Search' />
       <MDBBtn outline ><BsSearch /></MDBBtn>
       </MDBInputGroup>

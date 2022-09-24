@@ -23,7 +23,6 @@ function Adminnavbar() {
      
             </NavDropdown>
             <Nav.Link  as={Link} to="/post" className="text-light">ตรวจสอบประกาศ</Nav.Link>
-            <Nav.Link  as={Link} to="/member" className="text-light">ตรวจสอบสมาชิก</Nav.Link>
             <NavDropdown title={
                                 <span className="text-light">ตรวจสอบสถานะแมว</span>
                                } id="basic-nav-dropdown" >
