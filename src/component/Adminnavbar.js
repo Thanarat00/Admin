@@ -26,8 +26,8 @@ function Adminnavbar() {
             <NavDropdown title={
                                 <span className="text-light">ตรวจสอบสถานะแมว</span>
                                } id="basic-nav-dropdown" >
-              <NavDropdown.Item as={Link} to="#">รับเลี้ยงแล้ว</NavDropdown.Item>
-              <NavDropdown.Item  as={Link} to="#"> รอการรับเลี้ยง </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/on">รับเลี้ยงแล้ว</NavDropdown.Item>
+              <NavDropdown.Item  as={Link} to="/off"> รอการรับเลี้ยง </NavDropdown.Item>
              
      
             </NavDropdown>
