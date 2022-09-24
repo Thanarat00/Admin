@@ -35,8 +35,8 @@ function Adminnavbar() {
             <NavDropdown title={
                                 <span className="text-light">ขั้นตอน</span>
                                } id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="#">ขั้นตอนการรับเลี้ยง</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="#">ขั้นตอนการประกาศ</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/step1">ขั้นตอนการรับเลี้ยง</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/step2">ขั้นตอนการประกาศ</NavDropdown.Item>
               
        
      

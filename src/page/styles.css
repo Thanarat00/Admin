@@ -1,0 +1,11 @@
+.step{
+    max-width: 100%;
+    margin-left: 30%;
+    padding: 100px;
+}
+p {
+    font-size: 1rem;
+     font-weight: 500;
+     line-height: 1.2;
+     color:rgb(0, 0, 0);
+ }
