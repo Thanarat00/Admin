@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Figure from 'react-bootstrap/Figure';
+import Editstep from '../component/Editstep';
 import './styles.css'
 export class Editstep1 extends Component {
   render() {
@@ -8,6 +9,7 @@ export class Editstep1 extends Component {
 
   
 <div className="step">
+    <Editstep /><br></br><br></br>
                     <p>1.สมัครสมาชิก </p>
                     <br></br>
                         <Figure>
@@ -110,7 +112,7 @@ export class Editstep1 extends Component {
                         </Figure.Caption>
                         </Figure> 
 
-                        <p>8.กรณีผู้โพสต์ตกลง เมื่อทำการรับเลี้ยงไปแล้วผู้ที่รับเลี้ยงต้องเข้าไปที่หน้าแมวที่รับเลี้ยง เพื่อไปคลิกว่ารับเลี้ยงแมวแล้ว </p>
+                        <p>8.กรณีผู้โพสต์ตกลง เมื่อทำการรับเลี้ยงไปแล้วผู้ที่รับเลี้ยงต้องเข้าไปที่หน้าแมวที่รับเลี้ยง<br></br> เพื่อไปคลิกว่ารับเลี้ยงแมวแล้ว </p>
                         <br></br>
                         <Figure>
                         <Figure.Image
@@ -124,8 +126,8 @@ export class Editstep1 extends Component {
                         </Figure.Caption>
                         </Figure> 
 
-                        <p>9. หลังจากที่รับเลี้ยงแมวผู้รับเลี้ยงต้องเข้ามาอัพเดทแมวโดยการถ่ายภาพไปลงในหน้าแมวที่รับเลี้ยงเป็นไฟล์
-                             JNG หรือ PNG ขนาดไฟล์ไม่เกิน 3 เมกะไบต์ จำนวนอย่างน้อย 2 รูป ต้องอัพเดททุกสัปดาห์ในเดือนแรก และทุก ๆ 1 เดือนจนกว่าจะครบ 6 เดือน</p>
+                        <p>9. หลังจากที่รับเลี้ยงแมวผู้รับเลี้ยงต้องเข้ามาอัพเดทแมวโดยการถ่ายภาพไปลง<br></br>ในหน้าแมวที่รับเลี้ยงเป็นไฟล์
+                             JNG หรือ PNG ขนาดไฟล์ไม่เกิน 3 เมกะไบต์ <br></br>จำนวนอย่างน้อย 2 รูป ต้องอัพเดททุกสัปดาห์ในเดือนแรก และทุก ๆ 1 เดือนจนกว่าจะครบ 6 เดือน</p>
                              <br></br>
                         <Figure>
                         <Figure.Image

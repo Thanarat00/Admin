@@ -9,6 +9,8 @@ import Table from './Table';
 import Offstaus from './Offstaus';
 import Editstep1 from './Editstep1';
 import Editstep2 from './Editstep2';
+import Rearing from './Rearing';
+import Call from './Call';
 export class Home extends Component {
   render() {
     return (
@@ -21,10 +23,10 @@ export class Home extends Component {
             <Route path="/post"element={<Post />} />
             <Route path="/on"element={<Onstaus />} />
             <Route path="/off"element={<Offstaus />} />
-
+            <Route path="/rearing" element={<Rearing />} />
             <Route path="/step1"element={<Editstep1 />} />
             <Route path="/step2"element={<Editstep2 />} />
-
+            <Route path="/call"element={<Call />} />
            
             
         

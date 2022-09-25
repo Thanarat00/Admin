@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Figure from 'react-bootstrap/Figure';
+import Editstep3 from '../component/Editstep3';
 import './styles.css'
 
 export class Editstep2 extends Component {
@@ -9,6 +10,7 @@ export class Editstep2 extends Component {
 
   
 <div className="step">
+    <Editstep3 /><br></br><br></br>
                     <p>1.สมัครสมาชิก </p>
                     <br></br>
                         <Figure>

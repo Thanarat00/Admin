@@ -28,7 +28,7 @@ function Upload() {
           <Form>
           <Uploadvedio />
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>รายละเพิ่มเติม :</Form.Label>
+              <Form.Label>รายละเอียดเพิ่มเติม :</Form.Label>
               <Form.Control
                 type="text"
                 autoFocus

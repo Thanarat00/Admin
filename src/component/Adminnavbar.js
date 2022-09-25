@@ -31,7 +31,7 @@ function Adminnavbar() {
              
      
             </NavDropdown>
-            <Nav.Link  as={Link} to="#" className="text-light">การเลี้ยงแมว</Nav.Link>
+            <Nav.Link  as={Link} to="/rearing" className="text-light">การเลี้ยงแมว</Nav.Link>
             <NavDropdown title={
                                 <span className="text-light">ขั้นตอน</span>
                                } id="basic-nav-dropdown">
@@ -41,7 +41,7 @@ function Adminnavbar() {
        
      
             </NavDropdown>
-            <Nav.Link  as={Link} to="#" className="text-light">วิดิโอคอล</Nav.Link>
+            <Nav.Link  as={Link} to="/call" className="text-light">วิดิโอคอล</Nav.Link>
           </Nav>
 
 
