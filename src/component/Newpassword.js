@@ -17,7 +17,7 @@ function Newpassword() {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+         
         </Modal.Header>
         <Modal.Body>
             <Form.Label htmlFor="inputPassword5">NewPassword</Form.Label>

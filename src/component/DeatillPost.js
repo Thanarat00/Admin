@@ -22,18 +22,33 @@ function DeatillPost() {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title></Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          I will not close if you click outside me. Don't even try to press
-          escape key.
+        <img src='/images/1.jpg' className='imag'/>
+        <br></br><br></br>
+        <ul className='ul'>
+          <li>
+          sdgfdsfdsgdfg
+        </li>
+        <li>
+          sdgfdsfdsgdfg
+        </li>
+        <li>
+          sdgfdsfdsgdfg
+        </li>
+        <li>
+          sdgfdsfdsgdfg
+        </li>
+        <li>
+          sdgfdsfdsgdfg
+        </li>
+        <li>
+          sdgfdsfdsgdfg
+        </li>
+        </ul>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary">Understood</Button>
-        </Modal.Footer>
+
       </Modal>
     </>
   );
