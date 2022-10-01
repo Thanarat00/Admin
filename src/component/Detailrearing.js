@@ -11,7 +11,7 @@ function Detailrearing() {
       </Link>
     <h2>แมวเปอร์เซีย</h2>
     
-   <div className="All1">
+   <div className="imagesss">
    
     <img src="https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg" width={600} height={350} />
 
