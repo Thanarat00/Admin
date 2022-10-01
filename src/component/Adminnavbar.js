@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FaUserFriends} from "react-icons/fa";
 import {Link} from 'react-router-dom';
+import Logout from './Logout';
+import Notify from './Notify';
 function Adminnavbar() {
   return (
     <Navbar bg="dark" expand="lg">
@@ -49,9 +51,9 @@ function Adminnavbar() {
       </Container>
       <Nav className="me-auto">
           <Navbar.Collapse className="justify-content-end">
-            <Nav.Link  className='text-light'>< FaUserFriends/> </Nav.Link>
-      
-   
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <Notify />
+          <Logout />
            
         </Navbar.Collapse>
 

@@ -11,6 +11,7 @@ import Editstep1 from './Editstep1';
 import Editstep2 from './Editstep2';
 import Rearing from './Rearing';
 import Call from './Call';
+import Detailrearing from '../component/Detailrearing';
 export class Home extends Component {
   render() {
     return (
@@ -27,7 +28,7 @@ export class Home extends Component {
             <Route path="/step1"element={<Editstep1 />} />
             <Route path="/step2"element={<Editstep2 />} />
             <Route path="/call"element={<Call />} />
-           
+            <Route path="/detail"element={<Detailrearing />} />
             
         
         </Routes>

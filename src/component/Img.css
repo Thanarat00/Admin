@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -156,3 +157,47 @@
     cursor: pointer;
 
   }
+  .image{
+    width: 100px;
+    height: 100px;
+  }
+
+.p1 {
+  margin-left: 25%;
+  text-indent: 30px;
+  max-width: 50%;
+  font-size: 20px;
+  font-family: 'Prompt', sans-serif;
+}
+h2{
+  font-family: 'Prompt', sans-serif;
+  margin-left: 20%;
+
+}
+.cathead{
+margin-top: 2%;
+
+}
+p{
+  font-family: 'Prompt', sans-serif;
+}
+.link{
+margin-left: 15%;
+
+}
+.Ail{
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr ;
+  column-gap: 20px;
+  row-gap: 20px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+}
+.images{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%
+ 
+}

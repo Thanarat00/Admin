@@ -10,7 +10,7 @@ import './All.css'
 function Post() {
   return (
 
-    <div className='All1'>
+    <div className='All'>
     <Card sx={{ width: 400 }}>
       <CardMedia
         component="img"

@@ -31,7 +31,18 @@ import Uploadvedio from './Uploadvedio';
                     
             </Form.Group>
           </Form>
+        
+          
 </Modal.Body>
+<Modal.Footer>
+      <Button variant="primary" onClick={handleClose}>
+            Save
+          </Button>
+          
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          </Modal.Footer>
 </Modal>
 </>
 
