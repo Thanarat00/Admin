@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Login.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -8,7 +9,7 @@ import './Login.css';
 export class Logins extends Component {
     render() {
         return (
-            <div className='Login'>
+            <div className='Login'> 
           <form>
             <h3><center>Sign In</center></h3>
             <div className="mb-3">
@@ -40,17 +41,16 @@ export class Logins extends Component {
               </div>
             </div>
             <div className="d-grid">
- 
-        <button type="submit" className="btn btn-primary">
+                 <button type="submit" className="btn btn-primary"   a href="Home.js">
                 Submit
                 </button>
 
-              
             </div>
             <p className="forgot-password text-right">
               Forgot <a href="#">password?</a>
             </p>
           </form>
+         
           </div>
         )
       }

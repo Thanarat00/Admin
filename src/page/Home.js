@@ -29,7 +29,7 @@ export class Home extends Component {
             <Route path="/step2"element={<Editstep2 />} />
             <Route path="/call"element={<Call />} />
             <Route path="/detail"element={<Detailrearing />} />
-            
+
         
         </Routes>
       </BrowserRouter>

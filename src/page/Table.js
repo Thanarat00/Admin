@@ -25,11 +25,20 @@ function toPages(pages) {
 
   return results;
 }
+const[users,setUsers]= useState ([]);
+useEffect (()=>{
+  fetch("http://localhost:3001/users").then(res => res.json())
+  .then(
+    (result) =>{
+      setUsers(result);
+    }
+  )
+})  
 
 const columns = [
   {
     name: "#",
-    selector: (row) => row.id,
+    selector: (row) => row.{users.map(users => (user.id)) },
     sortable: true
   },
   {
@@ -113,8 +122,8 @@ const columns = [
     selector: (row) => row.home,
     sortable: true,
     right: true
-  },
-  
+  }
+
 ];
 
 // RDT exposes the following internal pagination properties
